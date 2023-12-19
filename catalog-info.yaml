@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-go-restapi
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/adr-location: docs/adrs
+    github.com/project-slug: shiftdp/my-go-restapi
+  links:
+    - url: 'https://google.com'
+      title: 'my-go-restapi Link'
+      # icon: ''
+      # type: ''
+spec:
+  system: system:default/go-product
+  type: service
+  owner: user:default/fasanosalvatore
+  lifecycle: experimental
+  project: goreply-playground-idp
